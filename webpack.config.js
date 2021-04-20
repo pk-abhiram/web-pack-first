@@ -9,7 +9,7 @@ const config = {
   entry: './app/Index.js',
   output: {
     filename: 'myBundle.[hash].js',
-    path: path.resolve(__dirname, 'doc'),
+    path: path.resolve(__dirname, 'docs'),
   },
   plugins: [new HtmlWebpackPlugin({ template: './app/index.html' })],
   mode: 'development',
